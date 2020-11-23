@@ -1,12 +1,12 @@
-# binary_trees
+# Binary trees project
 
 ## Mandatory tasks:
-0. Implement insert node
-1. Implement insert to left
-2. Implement insert to right
-3. Implement delete node
-4. Implement "is a leaf?" verification
-5. Implement "is a root?" verification
+0. Function insert node
+1. Function insert to left
+2. Function insert to right
+3. Function delete node
+4. Function "is a leaf?" verification
+5. Function "is a root?" verification
 6. Function that goes through a binary tree using pre-order traversal
 7. Function that goes through a binary tree using in-order traversal
 8. Function that goes through a binary tree using post-order traversal
