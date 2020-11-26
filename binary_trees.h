@@ -57,4 +57,7 @@ int is_leaf(const binary_tree_t *node);
 int aux_is_perfect(const binary_tree_t *tree, int refer_d, int level);
 int refer_d_left(const binary_tree_t *tree);
 
+int height(const binary_tree_t *tree);
+int max(int a, int b);
+
 #endif /* BINARY_TREES_H */
