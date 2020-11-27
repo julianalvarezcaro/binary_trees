@@ -51,6 +51,8 @@ int binary_tree_is_perfect(const binary_tree_t *tree);
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
+/* Advanced tasks prototypes */
+void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 
 /* ******** AUXILIAR FUNCTIONS ******** */
 
@@ -58,12 +60,15 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 void aux_height(const binary_tree_t *tree, size_t node_h, size_t *height);
 int is_leaf(const binary_tree_t *node);
 
-/* For task 14 */
+/* For task 14 and 20*/
 int height(const binary_tree_t *tree);
 int max(int a, int b);
 
 /* For task 16 */
 int aux_is_perfect(const binary_tree_t *tree, int refer_d, int level);
 int refer_d_left(const binary_tree_t *tree);
+
+/*  For taks 20 */
+void func_level(const binary_tree_t *tree, int level, void (*func)(int));
 
 #endif /* BINARY_TREES_H */
